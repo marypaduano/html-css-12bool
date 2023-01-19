@@ -16,7 +16,11 @@
 
 }
 
-[class^col-] {
+.container + .container{
+    padding-bottom: 5px;
+}
+
+[class^.col-] {
     padding: 0 calc(var(--line-x) / 2);
 }
 
